@@ -1,97 +1,43 @@
 
-# =====================================
-# FNF OVERLAY - GITIGNORE
-# Prism Crew
-# =====================================
-
-# Executables
+# Compiled executables
 *.exe
 *.dll
-*.bat
-*.cmd
-*.msi
+*.pdb
 
-# Compiled files
-*.obj
-*.o
-*.class
-*.pyc
-*.pyd
-*.so
-*.bin
+# Fonts (only if not required by the app)
+# *.ttf
 
-# Fonts
-*.ttf
-*.otf
-*.woff
-*.woff2
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Build folders
+bin/
+obj/
+build/
+dist/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Secrets and certificates
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
 
 # Archives
 *.zip
 *.rar
 *.7z
-*.tar
-*.gz
-
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.old
-*.log
-*.cache
-
-# IDE and editors
-.vscode/
-.idea/
-*.suo
-*.user
-*.userosscache
-
-# Operating system
-.DS_Store
-Thumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-
-# Python
-__pycache__/
-.venv/
-venv/
-env/
-.pytest_cache/
-
-# Node.js
-node_modules/
-dist/
-coverage/
-.npm/
-
-# Build folders
-build/
-bin/
-obj/
-release/
-debug/
-
-# Environment and secrets
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-*.pfx
-*.p12
-
-# Backup folders
-backup/
-backups/
-*.backup
-*.bak
-
-# Crash dumps
-*.dmp
-*.stackdump
-
-# Logs
-logs/
