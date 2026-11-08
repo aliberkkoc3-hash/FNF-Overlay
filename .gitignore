@@ -1,6 +1,7 @@
 
 # Compiled executables
 *.exe
+*.bat
 *.dll
 *.pdb
 
